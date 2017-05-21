@@ -38,8 +38,123 @@ III. 언젠가 (skip)을 채워 넣겠다.
     + 고정관념을 갖게 만듦.
     + 개별 사례가 발생한 것에 관한 당신의 관점을 바꿈.
 
+### 17. 평균으로의 회귀
+
++ `회귀` : 극단적인 상황도 결국 제자리로 돌아온다.
++ `평균으로의 회귀` : 평균으로부터 멀어진 극단값은 이후 점점 평균으로 돌아온다.
+
+### 18. 직관적 예측 길들이기
+
++ `WYSIATI` : What You See Is All There Is
++ `비퇴행적` : Nonregressive
++ `퇴행` : 회귀 (regressive를 퇴행이라고 번역한 것은 번역가의 오역이라 봄)
++ `비편향적 예측` : 직관의 예측을 수정해서 편향을 없앤 예측
+
 > **Note**: 용어 정리 아래에 나오는 챕터별 내용은 역순으로 배치되어 있다.
+
 ---
+
+## 18. 직관적 예측 길들이기
+
+### Quote
+
++ 직관적인 선택은 킴을 더 선호한다. 제인보다 강력한 인상을 주었고 WYSIATI도 작동한다. 그러나 제인보다 킴에 대한 정보가 훨씬 적다는 것도 사실이다. 다시 적은 숫자의 법칙으로 돌아가보자. 실제로 킴과 제인에 대한 극소량의 정보 표본만 얻었을 뿐이며, 이처럼 적은 숫자의 표본에서는 극단적인 결과가 관찰될 가능성이 훨씬 더 커진다. 소규모 표본 결과에서는 운이 더 큰 작용을 하기 때문에 킴의 향후 연구 성과를 예측하려면, 직관적인 예측을 평균 쪽으로 좀 더 깊숙이 회귀시켜야 한다.
+
++ 그 브랜드에 대한 평가를 한 번 읽은 적이 있는데 평가는 훌륭했다. 그렇지만 그건 순전히 요행이었을 수 있다. 많은 평가를 받은 브랜드만 대상으로 가장 좋은 평가를 받는 것 같은 브랜드 하나만 선정하자.
+
+### Summary
+
+직관적 예측은 편향되기 마련이고, 편향되면 부정확해진다. 이러한 직관적 예측을 올바르게 길들이려면 직관이 모르는 개념을 먼저 알려줘야 한다. 바로 회귀다. 직관적 예측은 자동적이기 때문에 순식간에 이루어진다. 이때 이미 만들어진 예측은 편향되어 극단적일 가능성이 높은데 이때 회귀 효과를 고려해서 수정해보자.
+
+그런데, 직관의 편향을 없애는 것이 모든 상황에서 최선인 것은 아니다. 편향을 없애는 이유는 예측의 오류를 방지하기 위해서인데, 모든 오류가 다 동등하게 중요한 것은 아니다. 어떤 오류는 사소한 반면 어떤 오류는 더 주의해야 한다. 가령, 암 환자를 건강한 사람이라고 판단하는 오류와 건강한 사람을 암 환자라고 판단하는 오류를 비교해보자. 또 유죄인 사람을 무죄라고 판단하는 오류와 무죄인 사람을 유죄라고 판단하는 오류를 비교해보자. 두 번째 사례에서는 무죄 추정의 원칙에 따르면 판사에게 후자는 전자보다 훨씬 더 심각한 오류이다.
+
+
+```
+임시 저장 공간. 정리중..
+
+직관의 편향을 용인해야 하는 어쩔 수 없는 이유/상황이 있다. 질 좋은 정보가 부족한 상황에서 극단적인 사례를 예측할 때는 어쩔 수 없이 직관의 편향을 용인할 수밖에 없다. 직관의 예측을 수정해서 편향을 없애면 '비편향적 예측'이 되는데, 비편향적 예측으로 극단적인 사례를 예측하려면 질 좋은 정보가 많이 필요하기 때문이다.
+```
+
+### JMC's impression
+
+지난 챕터에 이어 통계적인 이야기가 계속 나왔고, 무슨 말인지 문장을 이해하기 어려웠다. 문장에서 각종 번역투가 느껴짐과 동시에 갑자기 번역자가 통계에 대한 지식이 바닥일 것이라는 생각이 들었다. Bayes를 베이즈가 아닌 베이스라고 번역한 것만 봐도 그가 통계에 얼마나 익숙하지 않은 사람인지 단번에 나타난다. 베이즈통계학은 통계학계에서는 아주 대중적인 용어이기 때문이다.
+
+이 챕터에서도 여지없이 오역이 드러난다.
+
+```
+Intuitive predictions need to be corrected because they are not
+regressive and therefore are biased.
+```
+
++ 번역가 : 직관적 예측은 퇴행적이지 않아서 편향적이기 때문에 수정이 필요하다.
++ 옳은 번역 : 직관적 예측은 회귀 효과를 무시하여 편향되기 때문에 수정이 필요하다.
+
+```
+A Defense of Extreme Predictions?
+```
+
++ 번역가 : 극단적 예측의 옹호
++ 옳은 번역 : 극단적 예측에 대한 변론
+
+```
+I introduced Tom W earlier to illustrate predictions of discrete outcomes
+such as field of specialization or success in an examination, which are
+expressed by assigning a probability to a specified event (or in that case
+by ranking outcomes from the most to the least probable). I also described
+a procedure that counters the common biases of discrete prediction:
+neglect of base rates and insensitivity to the quality of information.
+```
+
++ 번역가 : 번역 생략
+
+```
+You will never be able to
+say, “I thought so!” when your best student in law school becomes a
+Supreme Court justice, or when a start-up that you thought very promising
+eventually becomes a major commercial success. Given the limitations of
+the evidence, you will never predict that an outstanding high school student
+will be a straight-A student at Princeton. For the same reason, a venture
+capitalist will never be told that the probability of success for a start-up in
+its early stages is “very high.”
+```
+
++ 번역가 : 번역 생략
++ 이외에도 생략된 문단이 대체 얼마나 많은 걸까.
+
+번역 수준이 떨어지는 것에도 모자라 통계학에 대한 배경지식이 없는 사람이 통계학자의 글을 번역했다니. 독자에게는 거의 재앙과 다름없는 번역서, 아니 오역서이다. 원문을 이해하기 위해 번역서를 샀더니, 번역서를 이해하기 위해 원문이 필요하게 되었다. 특히 원문의 문단을 번역가가 수차례 통째로 생략한 것에 대해서는 아주 큰 배신감이 느껴진다.
+
+---
+
+## 17. 평균으로의 회귀 (부제: 우리의 직관은 회귀 효과를 간과하기 때문에 인과관계라고 잘못된 결론을 내린다)
+
+### Quote
+
++ 교관은 무작위적 과정에서 드러나는 불가피한 변동성에 인과관계 해석을 접붙였던 것이다.
++ 중요한 것은, 첫 번째 점프로부터 두 번째 점프로의 변화는 인과관계의 설명이 필요하지 않다는 사실이다.
++ 우을증에 에너지 음료나 다른 치료법이 효과적이라는 결론을 내리려면, 회귀가 설명할 수 있는 수준 이상으로 상태가 개선되는지 확인해야 한다.
+
+### Summary
+
+오늘 특별히 좋은 상황을 만들어냈다면, 다음날은 오늘보다는 좋지 않을 가능성이 크다.
+반대로 오늘 특별히 나쁜 상황을 만들어냈다면, 다음날은 오늘보다는 좋을 가능성이 크다.
+왜냐하면 세상의 많은 현상들은 평균으로 회귀하는 경향이 있기 때문이다. 이때 주의해야 할 점은, 회귀 효과를 의식하지 않으면 인간의 직관은 어떻게든 인과관계를 끄집어낸다는 점이다.
+
+가령 훈련 성과가 나쁜 학생에게 처벌을 가했더니 다음 날 훈련 성과가 좋아졌을 때, 처벌이 효과적이라고 섣불리 결론 내리면 안 된다.
+또 훈련 성과가 좋은 학생에게 보상을 주었더니 다음 날 훈련 성과가 나빠졌을 때, 칭찬은 거만하게 만드므로 좋은 훈육법이 아니라고 섣불리 결론 내려서도 안 된다.
+어느 날 훈련 성과가 극단적으로 good/bad 하다면, 그 이후에는 더 많은 회귀가 예상 가능하기 때문에 훈련 성과가 bad/good 하게 될 가능성이 높다.
+회귀 효과는 처벌이나 칭찬과 관계없이 일어나는 현상이기 때문이다.
+잘못된 인과관계 추론의 덫에 빠지지 않으려면 회귀 효과를 알고 있어야 한다.
+
+### JMC's Impression
+
++ 평균과의 진동폭 넓은게 좋은가 좁은게 좋은가
++ 객관적인 지표 (= 평균)
+
+
+### Training
+
+
+
 ---
 
 ## 16. 원인이 통계를 이긴다 (부제: 우리의 직관은 통계를 무시하고 원인을 숭배한다)
